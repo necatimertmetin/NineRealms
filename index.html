@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Cinzel' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compitable" content="ie=edge">
+    <style>
+        body{
+            font-family: 'Quicksand', sans-serif;
+        }
+    </style>
+    <title>Nine Realms</title>
+</head>
+
+
+
+<body style="background-color:black; color:white;">
+<video autoplay muted loop id="background-video">
+    <source src="src/spark.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+</video>
+<div id="left"></div>
+<div id="right"></div>
+<div id="top"></div>
+<div id="bottom"></div>
+
+
+<div class="splash">
+        <img class="fade-in" src="src/NineRealmsLogo.png" style="height:25%; top:50%; left:50%">
+</div>
+
+<!--
+
+<div class="wrapper">
+    <header>
+            <nav id="nav">
+
+                    <ul>
+                        <li><img class="logo" src="src/NineRealmsLogo.png" alt="Nine Realms Logo"></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">twitter</a></li>
+                        <li><a href="#">instagram</a></li>
+                        <li><a href="#">pinterest</a></li>
+                    </ul>
+
+            </nav>
+    </header>
+</div>
+-->
+
+<div class="topnav" id="myTopnav">
+    <a><img class="logo" src="src/NineRealmsLogo.png" alt="Nine Realms Logo"></a>
+    <a href="#home" class="active">Home</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+
+    </a>
+</div>
+
+
+
+
+
+<!--<nav>
+
+
+    <img src="src/NineRealmsLogo.png" style="height:50%; position: center">
+    <ul>
+
+        <li><a class="active" href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+-->
+
+
+<div class="headerTable">
+
+    <img class="headerImage" src="src/NineRealmsLogo.png">
+    <div class="headerTablePanel"></div>
+
+</div>
+
+
+
+<div class="cardsContainer center">
+
+    <input type="radio" name="slider" id="s1" checked>
+    <input type="radio" name="slider" id="s2">
+    <input type="radio" name="slider" id="s3">
+    <input type="radio" name="slider" id="s4">
+    <input type="radio" name="slider" id="s5">
+
+    <div class="cards">
+        <label for="s1" id="slide1">
+            <div class="card">
+                <div class="image">
+                    <img src="src/SliderViews/Muzafferba_Alfheim_Hyper_Realistic_6adf30a0-c87e-44b5-960c-56172c90dc5e.png" alt="alfheim">
+
+                </div>
+            </div>
+
+            <div class="infos">
+                <span class="name">Alfheim</span>
+
+
+            </div>
+        </label>
+
+        <label for="s2" id="slide2">
+            <div class="card">
+                <div class="image">
+                    <img src="src/SliderViews/Muzafferba_Asgard_Hyper_Realistic_5dca8b9a-6ddc-4b88-8a85-eb3974646cd8.png" alt="asgard">
+
+                </div>
+            </div>
+
+            <div class="infos">
+                <span class="name">Asgard</span>
+
+            </div>
+        </label>
+
+        <label for="s3" id="slide3">
+            <div class="card">
+                <div class="image">
+                    <img src="src/SliderViews/Muzafferba_Helheim_Hyper_Realistic_5366e4d8-792e-4d06-8648-81d45c3b36d6.png" alt="Helheim">
+
+                </div>
+            </div>
+
+            <div class="infos">
+                <span class="name">Helheim</span>
+
+
+            </div>
+        </label>
+
+        <label for="s4" id="slide4">
+            <div class="card">
+                <div class="image">
+                    <img src="src/SliderViews/Muzafferba_Jotunheim_Hyper_Realistic_275aa53d-e6e3-4d47-a1c3-6816477a1fcb.png" alt="Jotunheim">
+
+                </div>
+            </div>
+
+            <div class="infos">
+                <span class="name">Jotunheim</span>
+
+
+            </div>
+        </label>
+
+        <label for="s5" id="slide5">
+            <div class="card">
+                <div class="image">
+                    <img src="src/SliderViews/Muzafferba_Midgard_Hyper_Realistic_ec20c692-9313-4007-97f0-3a655f6ced75.png" alt="Midgard">
+
+                </div>
+            </div>
+
+            <div class="infos">
+                <span class="name">Midgard</span>
+
+
+            </div>
+        </label>
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<section class="flexContainer">
+
+
+    <div class="flexCard">
+        <div class="flexCardImage flexCar-1"></div>
+        <h2 class="flexCardTitle">Right to Resurrection</h2>
+        <p>If the player has enough *Dark Gems*, they can exchange it for the right to respawn. This right grants him one-time immortality. When he is resurrected, he can continue the game from where he left off.</p>
+    </div>
+    <div class="flexCard">
+        <div class="flexCardImage flexCar-2"></div>
+        <h2 class="flexCardTitle">Diplomacy</h2>
+        <p>If the player has enough *Dark Gems*, He gifted them to Heimdall. Heimdall gives him different abilities in return.</p>
+    </div>
+    <div class="flexCard">
+        <div class="flexCardImage flexCar-3"></div>
+        <h2 class="flexCardTitle">Skill Unlock</h2>
+        <p>The player can use the *Dark Gems* to unlock new skills.</p>
+    </div>
+
+</section>
+<div class="textContainer">
+    <div class="textGap">
+
+    </div>
+    <h1 class="textContainerTitle">About The Game</h1>
+    <p class="textContainerLorem">The Nine Realms is a game that takes Celtic mythology in a different reality and requires skill and tactics. When you die, you lose all your progress. However, the in-game content you earned before you die remains with you. You can use all these points and abilities for your next journey. You have the right to unlimited resurrection. Each time you die, your character develops more. If you are strong enough and progress enough in the dungeons, a god-boss will appear in front of you. By defeating him/her , you gain new abilities and powers and gain the right to pass to another realm.
+    </p>
+</div>
+<div class="videoContainer" style="background: rgba(0,0,0,0%)">
+    <iframe class="videoFrame" src="https://www.youtube.com/embed/dQw4w9WgXcQ" allow="autoplay; picture-in-picture" allowfullscreen></iframe>
+</div>
+<footer class="companyFooter">
+
+    <ul>
+        <li>
+            <div class="studioImage"><img src="src/StudioLogo/studioLogo.png"></div>
+        </li>
+    </ul>
+
+</footer>
+<footer id="main-footer" class="add-padding border-top-color2">
+
+    <div class="container">
+
+
+
+        <ul class="social-links text-center">
+            <li><a href="#" target="_blank"><i class="fa fa-twitter fa-fw"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fa fa-google-plus fa-fw"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fa fa-linkedin fa-fw"></i></a></li>
+        </ul>
+        <p class="text-center">&copy; 2022 - Meta Sapien Studio</p>
+
+    </div>
+
+</footer>
+
+
+
+
+
+
+<script src="app.js">
+
+</script>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script>
+    $(window).scroll(function(){
+        if($(window).scrollTop()){
+            $("nav").addClass("black");
+        }
+        else{
+            $("nav").removeClass("black");
+        }
+    });
+</script>
+<script>
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+            document.getElementById("nav").style.top = "0";
+        } else {
+            document.getElementById("nav").style.top = "-250px";
+        }
+        prevScrollpos = currentScrollPos;
+    }
+</script>
+
+
+</body>
+</html>
